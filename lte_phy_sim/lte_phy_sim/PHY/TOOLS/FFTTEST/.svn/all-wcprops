@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/FFTTEST
+END
+ffttest.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/FFTTEST/ffttest.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/FFTTEST/COPYING
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/FFTTEST/Makefile
+END

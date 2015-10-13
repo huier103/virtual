@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/openair4G/!svn/ver/2111/trunk/openair1/SCHED
+END
+sched_dlsch.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1728/trunk/openair1/SCHED/sched_dlsch.c
+END
+pusch_pc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/openair4G/!svn/ver/1804/trunk/openair1/SCHED/pusch_pc.c
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/openair4G/!svn/ver/1622/trunk/openair1/SCHED/Makefile.inc
+END
+phy_procedures_lte_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/openair4G/!svn/ver/1999/trunk/openair1/SCHED/phy_procedures_lte_common.c
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/openair4G/!svn/ver/1123/trunk/openair1/SCHED/extern.h
+END
+vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/openair4G/!svn/ver/1123/trunk/openair1/SCHED/vars.h
+END
+phy_procedures_lte_eNb.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/openair4G/!svn/ver/2111/trunk/openair1/SCHED/phy_procedures_lte_eNb.c
+END
+pucch_pc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/openair4G/!svn/ver/1671/trunk/openair1/SCHED/pucch_pc.c
+END
+sched.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/openair4G/!svn/ver/1123/trunk/openair1/SCHED/sched.c
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/openair4G/!svn/ver/1841/trunk/openair1/SCHED/defs.h
+END
+sched_lte_user.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/2057/trunk/openair1/SCHED/sched_lte_user.c
+END
+phy_procedures_lte_ue.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/openair4G/!svn/ver/2111/trunk/openair1/SCHED/phy_procedures_lte_ue.c
+END
+sched_lte_fw2011.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/openair4G/!svn/ver/2019/trunk/openair1/SCHED/sched_lte_fw2011.c
+END
+sched_lte.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1610/trunk/openair1/SCHED/sched_lte.c
+END
+rt_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair1/SCHED/rt_compat.h
+END

@@ -1,0 +1,1 @@
+cmd_/home/virtual/ire/Dom0_nodev/xen-chrback.o := ld -m elf_x86_64   -r -o /home/virtual/ire/Dom0_nodev/xen-chrback.o /home/virtual/ire/Dom0_nodev/dom0.o /home/virtual/ire/Dom0_nodev/data.o ; scripts/mod/modpost /home/virtual/ire/Dom0_nodev/xen-chrback.o

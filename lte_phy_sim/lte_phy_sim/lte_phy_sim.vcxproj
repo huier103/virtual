@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1282187-8F32-4BB0-A516-42FCD1A9D595}</ProjectGuid>
+    <RootNamespace>lte_phy_sim</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>F:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim;F:\new\研究\turbo译码\lte_phy_sim\gsl\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>F:\new\研究\turbo译码\lte_phy_sim\gsl\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);USER_MODE;OPENAIR_LTE;WIN32;OFDMA_DLSCH;DEBUG_PDSCH_SIM</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PHY\CODING\3gpplte.cpp" />
+    <ClCompile Include="PHY\CODING\3gpplte_turbo_decoder.cpp" />
+    <ClCompile Include="PHY\CODING\3gpplte_turbo_decoder_sse.cpp" />
+    <ClCompile Include="PHY\CODING\ccoding_byte.cpp" />
+    <ClCompile Include="PHY\CODING\ccoding_byte_lte.cpp" />
+    <ClCompile Include="PHY\CODING\crc_byte.cpp" />
+    <ClCompile Include="PHY\CODING\lte_rate_matching.cpp" />
+    <ClCompile Include="PHY\CODING\lte_segmentation.cpp" />
+    <ClCompile Include="PHY\CODING\viterbi.cpp" />
+    <ClCompile Include="PHY\CODING\viterbi_lte.cpp" />
+    <ClCompile Include="PHY\INIT\init_top.cpp" />
+    <ClCompile Include="PHY\INIT\lte_init.cpp" />
+    <ClCompile Include="PHY\INIT\lte_parms.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\adjust_gain.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\freq_equalization.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_adjust_sync.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_dl_channel_estimation.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_eNB_measurements.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_est_freq_offset.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_sync_time.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_ue_measurements.cpp" />
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_ul_channel_estimation.cpp" />
+    <ClCompile Include="PHY\LTE_REFSIG\lte_dl_cell_spec.cpp" />
+    <ClCompile Include="PHY\LTE_REFSIG\lte_gold.cpp" />
+    <ClCompile Include="PHY\LTE_REFSIG\lte_ul_ref.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dci.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dci_tools.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_coding.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_decoding.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_demodulation.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_modulation.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_scrambling.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\drs_modulation.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\group_hopping.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\initial_sync.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\lte_mcs.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\pbch.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\pcfich.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\phich.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\pilots.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\prach.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\pss.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\pucch.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\rar_tools.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\srs_modulation.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\sss.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\uci_tools.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_coding.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_decoding.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_demodulation.cpp" />
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_modulation.cpp" />
+    <ClCompile Include="PHY\MODULATION\ofdm_mod.cpp" />
+    <ClCompile Include="PHY\MODULATION\slot_fep.cpp" />
+    <ClCompile Include="PHY\MODULATION\slot_fep_ul.cpp" />
+    <ClCompile Include="PHY\MODULATION\ul_7_5_kHz.cpp" />
+    <ClCompile Include="PHY\TOOLS\cdot_prod.cpp" />
+    <ClCompile Include="PHY\TOOLS\cmult_sv.cpp" />
+    <ClCompile Include="PHY\TOOLS\cmult_vv.cpp" />
+    <ClCompile Include="PHY\TOOLS\dB_routines.cpp" />
+    <ClCompile Include="PHY\TOOLS\fft.cpp" />
+    <ClCompile Include="PHY\TOOLS\file_output.cpp" />
+    <ClCompile Include="PHY\TOOLS\log2_approx.cpp" />
+    <ClCompile Include="PHY\TOOLS\lte_dfts.cpp" />
+    <ClCompile Include="PHY\TOOLS\signal_energy.cpp" />
+    <ClCompile Include="SCHED\phy_eNb_rx.cpp" />
+    <ClCompile Include="SCHED\phy_eNb_tx.cpp" />
+    <ClCompile Include="SCHED\phy_procedures_lte_common.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\dlsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\openair_hw.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\pbchsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\pdcchsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\prachsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\pucchsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\syncsim.cpp" />
+    <ClCompile Include="SIMULATION\LTE_PHY\ulsim.cpp" />
+    <ClCompile Include="SIMULATION\TOOLS\abstraction.cpp" />
+    <ClCompile Include="SIMULATION\TOOLS\multipath_channel.cpp" />
+    <ClCompile Include="SIMULATION\TOOLS\random_channel.cpp" />
+    <ClCompile Include="SIMULATION\TOOLS\rangen_double.cPP" />
+    <ClCompile Include="SIMULATION\TOOLS\taus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PHY\CODING\defs.h" />
+    <ClInclude Include="PHY\CODING\extern.h" />
+    <ClInclude Include="PHY\CODING\lte_interleaver.h" />
+    <ClInclude Include="PHY\CODING\lte_interleaver_inline.h" />
+    <ClInclude Include="PHY\CODING\scrambler.h" />
+    <ClInclude Include="PHY\CODING\vars.h" />
+    <ClInclude Include="PHY\defs.h" />
+    <ClInclude Include="PHY\extern.h" />
+    <ClInclude Include="PHY\impl_defs_lte.h" />
+    <ClInclude Include="PHY\impl_defs_top.h" />
+    <ClInclude Include="PHY\INIT\defs.h" />
+    <ClInclude Include="PHY\INIT\extern.h" />
+    <ClInclude Include="PHY\INIT\vars.h" />
+    <ClInclude Include="PHY\LTE_ESTIMATION\defs.h" />
+    <ClInclude Include="PHY\LTE_ESTIMATION\extern.h" />
+    <ClInclude Include="PHY\LTE_ESTIMATION\filt96_32.h" />
+    <ClInclude Include="PHY\LTE_ESTIMATION\vars.h" />
+    <ClInclude Include="PHY\LTE_REFSIG\defs.h" />
+    <ClInclude Include="PHY\LTE_REFSIG\mod_table.h" />
+    <ClInclude Include="PHY\LTE_REFSIG\primary_synch.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\dci.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\defs.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\dlsch_tbs.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\dlsch_tbs_full.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\extern.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\proto.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\uci.h" />
+    <ClInclude Include="PHY\LTE_TRANSPORT\vars.h" />
+    <ClInclude Include="PHY\MODULATION\defs.h" />
+    <ClInclude Include="PHY\MODULATION\extern.h" />
+    <ClInclude Include="PHY\MODULATION\kHz_7_5.h" />
+    <ClInclude Include="PHY\MODULATION\vars.h" />
+    <ClInclude Include="PHY\spec_defs_top.h" />
+    <ClInclude Include="PHY\TOOLS\defs.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle1024.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle128.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle2048.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle256.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle32768.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle4096.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle512.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle6144.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle64.h" />
+    <ClInclude Include="PHY\TOOLS\twiddle_extern.h" />
+    <ClInclude Include="PHY\TOOLS\vars.h" />
+    <ClInclude Include="PHY\types.h" />
+    <ClInclude Include="PHY\vars.h" />
+    <ClInclude Include="SCHED\defs.h" />
+    <ClInclude Include="SCHED\vars.h" />
+    <ClInclude Include="SIMULATION\LTE_PHY\openair_hw.h" />
+    <ClInclude Include="SIMULATION\TOOLS\defs.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

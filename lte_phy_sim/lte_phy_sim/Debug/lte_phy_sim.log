@@ -1,0 +1,140 @@
+﻿生成启动时间为 2015/1/20 18:16:34。
+     1>项目“F:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\lte_phy_sim.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\lte_phy_sim.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /D USER_MODE /D OPENAIR_LTE /D WIN32 /D OFDMA_DLSCH /D DEBUG_PDSCH_SIM /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SIMULATION\LTE_PHY\dlsim.cpp
+         dlsim.cpp
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(298): warning C4244: “=”: 从“u16”转换到“u8”，可能丢失数据
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(735): warning C4244: “参数”: 从“u16”转换到“u8”，可能丢失数据
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(772): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(774): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(776): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(782): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(783): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(787): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(788): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(953): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(965): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1001): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1082): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1137): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1138): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1257): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1320): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1502): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1771): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1821): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1849): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1850): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(500): warning C4101: “snr”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(488): warning C4101: “pilot_sinr”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(485): warning C4101: “input_val_str2”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(485): warning C4101: “input_val_str”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(488): warning C4101: “abs_channel”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(438): warning C4101: “c”: 未引用的局部变量
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(964): warning C4700: 使用了未初始化的局部变量“input_trch_fd”
+     1>f:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\simulation\lte_phy\dlsim.cpp(1848): warning C4700: 使用了未初始化的局部变量“uncoded_ber”
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.exe" /NOLOGO cblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lte_phy_sim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.lib" /MACHINE:X86 Debug\3gpplte.obj
+         Debug\3gpplte_turbo_decoder.obj
+         Debug\3gpplte_turbo_decoder_sse.obj
+         Debug\ccoding_byte.obj
+         Debug\ccoding_byte_lte.obj
+         Debug\crc_byte.obj
+         Debug\lte_rate_matching.obj
+         Debug\lte_segmentation.obj
+         Debug\viterbi.obj
+         Debug\viterbi_lte.obj
+         Debug\init_top.obj
+         Debug\lte_init.obj
+         Debug\lte_parms.obj
+         Debug\adjust_gain.obj
+         Debug\freq_equalization.obj
+         Debug\lte_adjust_sync.obj
+         Debug\lte_dl_channel_estimation.obj
+         Debug\lte_eNB_measurements.obj
+         Debug\lte_est_freq_offset.obj
+         Debug\lte_sync_time.obj
+         Debug\lte_ue_measurements.obj
+         Debug\lte_ul_channel_estimation.obj
+         Debug\lte_dl_cell_spec.obj
+         Debug\lte_gold.obj
+         Debug\lte_ul_ref.obj
+         Debug\dci.obj
+         Debug\dci_tools.obj
+         Debug\dlsch_coding.obj
+         Debug\dlsch_decoding.obj
+         Debug\dlsch_demodulation.obj
+         Debug\dlsch_modulation.obj
+         Debug\dlsch_scrambling.obj
+         Debug\drs_modulation.obj
+         Debug\group_hopping.obj
+         Debug\initial_sync.obj
+         Debug\lte_mcs.obj
+         Debug\pbch.obj
+         Debug\pcfich.obj
+         Debug\phich.obj
+         Debug\pilots.obj
+         Debug\prach.obj
+         Debug\pss.obj
+         Debug\pucch.obj
+         Debug\rar_tools.obj
+         Debug\srs_modulation.obj
+         Debug\sss.obj
+         Debug\uci_tools.obj
+         Debug\ulsch_coding.obj
+         Debug\ulsch_decoding.obj
+         Debug\ulsch_demodulation.obj
+         Debug\ulsch_modulation.obj
+         Debug\ofdm_mod.obj
+         Debug\slot_fep.obj
+         Debug\slot_fep_ul.obj
+         Debug\ul_7_5_kHz.obj
+         Debug\cdot_prod.obj
+         Debug\cmult_sv.obj
+         Debug\cmult_vv.obj
+         Debug\dB_routines.obj
+         Debug\fft.obj
+         Debug\file_output.obj
+         Debug\log2_approx.obj
+         Debug\lte_dfts.obj
+         Debug\signal_energy.obj
+         Debug\phy_eNb_rx.obj
+         Debug\phy_eNb_tx.obj
+         Debug\phy_procedures_lte_common.obj
+         Debug\dlsim.obj
+         Debug\openair_hw.obj
+         Debug\pbchsim.obj
+         Debug\pdcchsim.obj
+         Debug\prachsim.obj
+         Debug\pucchsim.obj
+         Debug\syncsim.obj
+         Debug\ulsim.obj
+         Debug\abstraction.obj
+         Debug\multipath_channel.obj
+         Debug\random_channel.obj
+         Debug\rangen_double.obj
+         Debug\taus.obj
+         LINK : 没有找到 F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         lte_phy_sim.vcxproj -> F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\new\研究\turbo译码\lte_phy_sim\Debug\lte_phy_sim.exe;#1" /manifest Debug\lte_phy_sim.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\lte_phy_sim.unsuccessfulbuild”。
+         正在对“Debug\lte_phy_sim.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\new\研究\turbo译码\lte_phy_sim\lte_phy_sim\lte_phy_sim.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.16

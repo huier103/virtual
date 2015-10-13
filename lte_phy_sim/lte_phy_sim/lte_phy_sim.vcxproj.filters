@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PHY">
+      <UniqueIdentifier>{53d58cf3-4b87-4b91-909b-10e2c54e67b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMULATION">
+      <UniqueIdentifier>{41aea98f-9725-4b5d-91df-c8148bfcde9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\INIT">
+      <UniqueIdentifier>{d85f2582-93d6-4274-a10b-59ba788f540f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\CODING">
+      <UniqueIdentifier>{2fde2834-7f08-4101-919d-970633456f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\LTE_ESTIMATION">
+      <UniqueIdentifier>{66126ea2-f678-4825-937e-34d721ef8839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\LTE_TRANSPORT">
+      <UniqueIdentifier>{2a275b0b-0e24-446a-9ae2-900490bd77e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\LTE_REFSIG">
+      <UniqueIdentifier>{94cbc9d0-c2b0-46cd-8c96-9d5d15e46c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\MODULATION">
+      <UniqueIdentifier>{ba538e52-9927-473a-af56-c6e8ee75721a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PHY\TOOLS">
+      <UniqueIdentifier>{dc434fbe-0c3d-4c6c-84b2-c7128fb1cd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMULATION\LTE_PHY">
+      <UniqueIdentifier>{f2aebddc-2eb3-4610-b80f-9190b70df95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMULATION\TOOLS">
+      <UniqueIdentifier>{0669e136-0894-4bb0-907f-4fccca62d8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCHED">
+      <UniqueIdentifier>{01cb200e-d99e-4270-b8f1-6d913e18b66c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SIMULATION\LTE_PHY\ulsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dci_tools.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dci.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\lte_rate_matching.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\ccoding_byte_lte.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\crc_byte.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_demodulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\pcfich.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\log2_approx.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\phich.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SCHED\phy_procedures_lte_common.cpp">
+      <Filter>SCHED</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_REFSIG\lte_gold.cpp">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\viterbi_lte.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\lte_mcs.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\signal_energy.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\dB_routines.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\file_output.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_modulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_REFSIG\lte_ul_ref.cpp">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_sync_time.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\viterbi.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\ccoding_byte.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\fft.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\cdot_prod.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\3gpplte.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\INIT\lte_init.cpp">
+      <Filter>PHY\INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\INIT\init_top.cpp">
+      <Filter>PHY\INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\INIT\lte_parms.cpp">
+      <Filter>PHY\INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\TOOLS\taus.cpp">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\TOOLS\rangen_double.cPP">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_coding.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_decoding.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_demodulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\ulsch_modulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\lte_segmentation.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\3gpplte_turbo_decoder_sse.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\lte_dfts.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\freq_equalization.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_ul_channel_estimation.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\cmult_sv.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\TOOLS\cmult_vv.cpp">
+      <Filter>PHY\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\srs_modulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\MODULATION\slot_fep_ul.cpp">
+      <Filter>PHY\MODULATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_eNB_measurements.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\MODULATION\ul_7_5_kHz.cpp">
+      <Filter>PHY\MODULATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\prach.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\TOOLS\multipath_channel.cpp">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\MODULATION\ofdm_mod.cpp">
+      <Filter>PHY\MODULATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\drs_modulation.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\group_hopping.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\TOOLS\random_channel.cpp">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_decoding.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_coding.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\dlsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\dlsch_scrambling.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_ue_measurements.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\MODULATION\slot_fep.cpp">
+      <Filter>PHY\MODULATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_est_freq_offset.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_dl_channel_estimation.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_REFSIG\lte_dl_cell_spec.cpp">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\TOOLS\abstraction.cpp">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\pilots.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\pbchsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\pbch.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\pss.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\sss.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\syncsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\initial_sync.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\adjust_gain.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\openair_hw.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\pdcchsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\pucchsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\pucch.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMULATION\LTE_PHY\prachsim.cpp">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\rar_tools.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_TRANSPORT\uci_tools.cpp">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\LTE_ESTIMATION\lte_adjust_sync.cpp">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PHY\CODING\3gpplte_turbo_decoder.cpp">
+      <Filter>PHY\CODING</Filter>
+    </ClCompile>
+    <ClCompile Include="SCHED\phy_eNb_rx.cpp">
+      <Filter>SCHED</Filter>
+    </ClCompile>
+    <ClCompile Include="SCHED\phy_eNb_tx.cpp">
+      <Filter>SCHED</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PHY\types.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\defs.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="SCHED\defs.h">
+      <Filter>SCHED</Filter>
+    </ClInclude>
+    <ClInclude Include="SCHED\vars.h">
+      <Filter>SCHED</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\vars.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMULATION\TOOLS\defs.h">
+      <Filter>SIMULATION\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\dci.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\uci.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\INIT\defs.h">
+      <Filter>PHY\INIT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\vars.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\defs.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\proto.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\defs.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_REFSIG\defs.h">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_REFSIG\mod_table.h">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_REFSIG\primary_synch.h">
+      <Filter>PHY\LTE_REFSIG</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\defs.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\extern.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\lte_interleaver.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\lte_interleaver_inline.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\scrambler.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\CODING\vars.h">
+      <Filter>PHY\CODING</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle_extern.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle64.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle128.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle256.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle512.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle1024.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle2048.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle4096.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle6144.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\twiddle32768.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\TOOLS\vars.h">
+      <Filter>PHY\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_ESTIMATION\defs.h">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_ESTIMATION\extern.h">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_ESTIMATION\filt96_32.h">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_ESTIMATION\vars.h">
+      <Filter>PHY\LTE_ESTIMATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\extern.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\INIT\extern.h">
+      <Filter>PHY\INIT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\INIT\vars.h">
+      <Filter>PHY\INIT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\MODULATION\defs.h">
+      <Filter>PHY\MODULATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\MODULATION\extern.h">
+      <Filter>PHY\MODULATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\MODULATION\kHz_7_5.h">
+      <Filter>PHY\MODULATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\MODULATION\vars.h">
+      <Filter>PHY\MODULATION</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMULATION\LTE_PHY\openair_hw.h">
+      <Filter>SIMULATION\LTE_PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\impl_defs_lte.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\impl_defs_top.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\spec_defs_top.h">
+      <Filter>PHY</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\dlsch_tbs.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\dlsch_tbs_full.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+    <ClInclude Include="PHY\LTE_TRANSPORT\extern.h">
+      <Filter>PHY\LTE_TRANSPORT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/openair4G/!svn/ver/2086/trunk/openair1/PHY/CODING
+END
+lte_segmentation.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/openair4G/!svn/ver/1944/trunk/openair1/PHY/CODING/lte_segmentation.c
+END
+viterbi.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/2042/trunk/openair1/PHY/CODING/viterbi.c
+END
+rate_matching.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/2042/trunk/openair1/PHY/CODING/rate_matching.c
+END
+viterbi_lte.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/CODING/viterbi_lte.c
+END
+lte_rate_matching.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/openair4G/!svn/ver/1944/trunk/openair1/PHY/CODING/lte_rate_matching.c
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/extern.h
+END
+3gpplte_turbo_decoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/openair4G/!svn/ver/2042/trunk/openair1/PHY/CODING/3gpplte_turbo_decoder.c
+END
+3gpplte.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/3gpplte.c
+END
+scrambler.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/scrambler.h
+END
+vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/vars.h
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1661/trunk/openair1/PHY/CODING/defs.h
+END
+lte_interleaver_inline.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/lte_interleaver_inline.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/COPYING
+END
+lte_tf.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/lte_tf.m
+END
+3gpplte_turbo_decoder_sse.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/openair4G/!svn/ver/1399/trunk/openair1/PHY/CODING/3gpplte_turbo_decoder_sse.c
+END
+lte_interleaver.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/lte_interleaver.h
+END
+ccoding_byte.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/ccoding_byte.c
+END
+crc_byte.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/crc_byte.c
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/CODING/Makefile
+END
+ccoding_byte_lte.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/CODING/ccoding_byte_lte.c
+END

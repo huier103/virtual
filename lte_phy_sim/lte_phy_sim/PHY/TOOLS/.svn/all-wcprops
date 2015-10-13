@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/openair4G/!svn/ver/1944/trunk/openair1/PHY/TOOLS
+END
+twiddle256.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle256.h
+END
+file_output.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/file_output.c
+END
+cmult_vv.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1687/trunk/openair1/PHY/TOOLS/cmult_vv.c
+END
+memory_routines.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/memory_routines.c
+END
+costable.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/costable.h
+END
+lte_dfts.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1747/trunk/openair1/PHY/TOOLS/lte_dfts.c
+END
+cadd_vv.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/cadd_vv.c
+END
+twiddle1024.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle1024.h
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/extern.h
+END
+twiddle32768.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle32768.h
+END
+8bit_txmux.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/8bit_txmux.c
+END
+twiddle64.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle64.h
+END
+cmult_mm.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/cmult_mm.c
+END
+fft.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/TOOLS/fft.c
+END
+vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/vars.h
+END
+twiddle4096.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle4096.h
+END
+angle.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/angle.c
+END
+twiddle_extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle_extern.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/COPYING
+END
+twiddle128.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle128.h
+END
+log2_approx.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/log2_approx.c
+END
+cmult_sv.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/TOOLS/cmult_sv.c
+END
+generate_twiddles.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/generate_twiddles.m
+END
+cadd_sv.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/cadd_sv.c
+END
+invSqrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/invSqrt.c
+END
+cmult_vvh.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/cmult_vvh.c
+END
+cdot_prod.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/TOOLS/cdot_prod.c
+END
+dB_routines.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1944/trunk/openair1/PHY/TOOLS/dB_routines.c
+END
+phase_comp.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/phase_comp.c
+END
+twiddle2048.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle2048.h
+END
+twiddle6144.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1545/trunk/openair1/PHY/TOOLS/twiddle6144.h
+END
+8bit_rxdemux.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/8bit_rxdemux.c
+END
+signal_energy.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/openair4G/!svn/ver/1482/trunk/openair1/PHY/TOOLS/signal_energy.c
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/openair4G/!svn/ver/1766/trunk/openair1/PHY/TOOLS/defs.h
+END
+sqrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/sqrt.c
+END
+twiddle512.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1123/trunk/openair1/PHY/TOOLS/twiddle512.h
+END

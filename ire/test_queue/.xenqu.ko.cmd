@@ -1,0 +1,1 @@
+cmd_/home/virtual/ire/test_queue/xenqu.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/virtual/ire/test_queue/xenqu.ko /home/virtual/ire/test_queue/xenqu.o /home/virtual/ire/test_queue/xenqu.mod.o

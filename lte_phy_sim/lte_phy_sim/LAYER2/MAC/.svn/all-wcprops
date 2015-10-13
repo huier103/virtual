@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/openair4G/!svn/ver/2111/trunk/openair2/LAYER2/MAC
+END
+l1_helpers.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/openair4G/!svn/ver/1759/trunk/openair2/LAYER2/MAC/l1_helpers.c
+END
+vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/2042/trunk/openair2/LAYER2/MAC/vars.h
+END
+eNB_scheduler.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/2111/trunk/openair2/LAYER2/MAC/eNB_scheduler.c
+END
+openair2_proc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/1123/trunk/openair2/LAYER2/MAC/openair2_proc.c
+END
+lte_transport_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/openair4G/!svn/ver/1435/trunk/openair2/LAYER2/MAC/lte_transport_init.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/2111/trunk/openair2/LAYER2/MAC/main.c
+END
+rar_tools.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/openair4G/!svn/ver/1848/trunk/openair2/LAYER2/MAC/rar_tools.c
+END
+ue_procedures.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/1999/trunk/openair2/LAYER2/MAC/ue_procedures.c
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1805/trunk/openair2/LAYER2/MAC/config.c
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1998/trunk/openair2/LAYER2/MAC/defs.h
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1886/trunk/openair2/LAYER2/MAC/extern.h
+END
+ra_procedures.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openair4G/!svn/ver/1852/trunk/openair2/LAYER2/MAC/ra_procedures.c
+END

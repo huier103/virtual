@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/openair4G/!svn/ver/2111/trunk/openair2/LAYER2
+END
+layer2_top.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1123/trunk/openair2/LAYER2/layer2_top.c
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/openair4G/!svn/ver/1999/trunk/openair2/LAYER2/Makefile.inc
+END
+register.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair2/LAYER2/register.c
+END
+register.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/openair4G/!svn/ver/1123/trunk/openair2/LAYER2/register.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/openair4G/!svn/ver/1532/trunk/openair2/LAYER2/Makefile
+END

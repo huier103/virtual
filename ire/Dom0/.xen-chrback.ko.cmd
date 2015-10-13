@@ -1,0 +1,1 @@
+cmd_/home/virtual/ire/Dom0/xen-chrback.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/virtual/ire/Dom0/xen-chrback.ko /home/virtual/ire/Dom0/xen-chrback.o /home/virtual/ire/Dom0/xen-chrback.mod.o

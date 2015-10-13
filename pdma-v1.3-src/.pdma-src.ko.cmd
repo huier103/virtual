@@ -1,0 +1,1 @@
+cmd_/home/virtual/pdma-v1.3-src/pdma-src.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.10.43-11.el6.centos.alt.x86_64/scripts/module-common.lds --build-id  -o /home/virtual/pdma-v1.3-src/pdma-src.ko /home/virtual/pdma-v1.3-src/pdma-src.o /home/virtual/pdma-v1.3-src/pdma-src.mod.o
